@@ -22,6 +22,7 @@ public class Main {
         d = d+d;
 
 
+
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
