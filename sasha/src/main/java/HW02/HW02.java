@@ -8,16 +8,16 @@ public class HW02 {
      * Создать программу, проверяющую и сообщающую на экран, является ли введенное с
      * консоли целое число, чётным либо нечётны.
      */
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int a = scan.nextInt();
-        if (a % 2 == 0) {
-            System.out.println("Число " + a + "- Четное");
-        } else {
-            System.out.println("Число " + a + "- Нечетное");
-        }
-    }
-}
+    /**public static void main(String[] args) {
+     Scanner scan = new Scanner(System.in);
+     int a = scan.nextInt();
+     if (a % 2 == 0) {
+     System.out.println("Число " + a + "- Четное");
+     } else {
+     System.out.println("Число " + a + "- Нечетное");
+     }
+     }
+     }*/
 /**
  * Задание 3
  * Создать программу, выводящую на экран ближайшее к 10 из двух чисел, введенных с консоли.
@@ -90,27 +90,52 @@ public class HW02 {
  * (значения всех переменных разные).
  */
 
-/**public static void main(String[] args) {
- int a = 900;
- int b = 80;
- int c = 2300;
- if (a > b) {
- if (a > c) {
- System.out.println("Larger is a");
- } else {
- if (b > c) {
- System.out.println("Larger is b");
- } else {
- System.out.println("Larger is c");
- }
- }
- }else{
- if (c > b) {
- System.out.println("Larger is c");
- }
- }
- }
- }*/
+    /**
+     * public static void main(String[] args) {
+     * int a = 900;
+     * int b = 80;
+     * int c = 2300;
+     * if (a > b) {
+     * if (a > c) {
+     * System.out.println("Larger is a");
+     * } else {
+     * if (b > c) {
+     * System.out.println("Larger is b");
+     * } else {
+     * System.out.println("Larger is c");
+     * }
+     * }
+     * }else{
+     * if (c > b) {
+     * System.out.println("Larger is c");
+     * }
+     * }
+     * }
+     * }
+     */
+    /**Задание 5
+    Задано четыре переменных, найти и вывести на экран вторую по величине.*/
+    public static void main(String[] args) {
+        int a = 125;
+        int b = 94;
+        int c = 212;
+        int d = 87;
+        if(a>b);{
+            if(b>c){
+                if(c>d);{
+
+                }
+            }else{
+                System.out.println("Среднее число");
+            }
+        }
+        }
+
+
+
+
+    }
+
 
 
 
