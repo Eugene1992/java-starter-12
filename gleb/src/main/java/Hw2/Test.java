@@ -9,11 +9,8 @@ public class Test {
         numReturn (2, 10, 30);
     }
     static void numReturn (int step, int min, int max){
-        for (int i = 0; min < i; i += step){
-            if (i < max){
-                i += i;
-            } System.out.println(i);
-
-        }
+        for (int i = min; min < max; min += step){
+                min += min;
+        }System.out.println(min);
     }
 }
