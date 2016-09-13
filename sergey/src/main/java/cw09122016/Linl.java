@@ -8,12 +8,7 @@ public class Linl {
         for (int a = 0; a < 10; a++ ) {
             for (int j = 0; j < a; j++){
                 System.out.print("# ");
-
-
-
-
             }
-
           System.out.println();
         }
     }
