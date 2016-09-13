@@ -1,4 +1,4 @@
-package cw3;
+package cw03;
 
 /**
  * Created by Student on 9/7/2016.
