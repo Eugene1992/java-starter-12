@@ -1,8 +1,8 @@
-package hw09112016;
+package cw07;
 
 import java.util.Scanner;
 
-public class Cwork {
+public class RandSolution {
     public static void main(String[] args) {
         int rand;
         Scanner scan = new Scanner(System.in);
@@ -22,5 +22,3 @@ public class Cwork {
         }
     }
 }
-
-

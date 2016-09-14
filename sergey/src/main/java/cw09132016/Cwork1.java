@@ -5,14 +5,13 @@ package cw09132016;
  */
 public class Cwork1 {
     public static void main(String[] args) {
-      myNumbers(1,8);
+        myNumbers(5, 8);
     }
 
-    static void myNumbers(int start, int end){
-        int a = 0;
-        for (; a < end; a+=2){
+    static void myNumbers(int start, int end) {
+        for (; start < end; start += 2) {
+            System.out.println(start);
         }
-        System.out.println(a);
     }
 
 }
